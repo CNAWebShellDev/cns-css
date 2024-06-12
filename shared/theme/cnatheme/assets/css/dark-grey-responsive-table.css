@@ -1,0 +1,130 @@
+@import "//fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.dark-grey-table {
+  width: 97%;
+  margin: 20px auto 10px auto;
+  text-align: left;
+  min-width: 240px;
+  border: 1px solid #B9C2D0;
+  border-right: 2px solid #B9C2D0;
+  border-bottom: 2px solid #B9C2D0;
+}
+
+/*.dark-grey-table tr {
+  border-top: 1px solid #005694;
+  border-bottom: 1px solid #005694;
+}*/
+
+/*.dark-grey-table tr {
+  border-top: 1px solid #565A5C;
+  border-bottom: 1px solid #565A5C;
+}*/
+
+.dark-grey-table tr {
+  border-top: 1px solid #B9C2D0;
+  border-bottom: 1px solid #B9C2D0;
+  vertical-align: top;
+}
+
+.dark-grey-table th {
+  display: none;
+  border-right: 1px solid #B9C2D0;
+  color: #FFFFFF;
+}
+
+.dark-grey-table td {
+  display: block;
+  border-right: 1px solid #B9C2D0;
+}
+
+/*.dark-grey-table td:first-child {
+  padding-top: .5em;
+}
+
+.dark-grey-table td:last-child {
+  padding-bottom: .5em;
+}*/
+
+.dark-grey-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  padding-top: 0px;
+  /*width: 11em;*/
+  /*display: inline-block;*/
+  /*white-space: pre;*/
+}
+
+.polar-blue {
+    background-color: #EEF7FC!important;
+	color: #565A5C!important;
+}
+
+@media (min-width: 480px) {
+  .dark-grey-table td:before {
+    display: none;
+  }
+}
+
+.dark-grey-table th, .dark-grey-table td {
+  text-align: left;
+}
+
+@media (min-width: 480px) {
+  .dark-grey-table th, .dark-grey-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  
+  .dark-grey-table th:first-child, .dark-grey-table td:first-child {
+    padding-left: 0;
+  }
+  
+  .dark-grey-table th:last-child, .dark-grey-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+.dark-grey-table {
+  /*background-color: rgba(255,255,255,.6);
+  color: #fff;
+  border-radius: .4em;*/
+  overflow: hidden;
+}
+
+.dark-grey-table th, .dark-grey-table td {
+  margin: .5em 1em;      
+}
+
+@media (min-width: 480px) {
+  .dark-grey-table th, .dark-grey-table td {
+    padding: 15px !important;
+  }
+}
+
+.dark-grey-table th, .dark-grey-table td:before {
+  
+  background: #565A5C;
+  /*background: #005694;*/
+  /*background: #EEF7FC;*/
+  margin: 0 0 0px;
+  font-family: Montserrat,sans-serif;
+  font-weight: 700;
+  /*letter-spacing: 1px;*/
+  height: 60px;
+  /*vertical-align: middle;*/
+}
+
+@media (max-width: 480px) {
+	.dark-grey-table{
+		background-color: #EEF7FC;
+	}
+	
+	.dark-grey-table td{
+		color: #565A5C;
+		font-size: 12px;
+		border-right: 0px;
+	}	
+	
+	.dark-grey-table th, .dark-grey-table td:before {
+  		background: none;
+}
+}

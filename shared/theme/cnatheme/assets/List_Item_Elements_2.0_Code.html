@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>List Item Elements</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="../../assets/thirdpartylib/bootstrap-3.3.6/css/bootstrap.min.css">
+	
+	<!-- Course Styles -->
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="css/style-guide.min.css">
+	
+	<!-- Container Files -->
+	<link rel="stylesheet" type="text/css" href="css/containers.css">
+	
+	<!-- Table files -->
+    <link rel="stylesheet" type="text/css" href="css/grey-responsive-table.css">
+    <link rel="stylesheet" type="text/css" href="css/blue-responsive-table.css">
+  
+  <!-- Fonts -->  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&amp;display=swap" rel="stylesheet">
+</head>
+
+<body class="content">
+<div class="container-fluid"><main>
+<div class="row">
+<div class="col-sm-12">
+<h2>Default Styled List</h2>
+<strong>NOTE:</strong> To specify a start value for a Default Styled Ordered List use the traditional html code start="#".</div>
+<div class="col-sm-12">
+<div class="col-sm-6">
+<h3>Unordered List</h3>
+<!-- Unordered List -->
+<ul>
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ul>
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ul&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ul&gt;</p>
+<p><strong>NOTE:</strong> The unordered list starts with the <em><strong>&lt;ul&gt;</strong></em> tag and ends with the <em><strong>&lt;/ul&gt;</strong></em>. Each list item starts with the <em><strong>&lt;li&gt;</strong></em> tag and ends with the <strong><em>&lt;/li&gt;</em></strong>.&nbsp;</p>
+</div>
+</div>
+<!-- END Unordered List --></div>
+<div class="col-sm-6">
+<h3>Nested Unordered List</h3>
+<!-- Nested Unordered List -->
+<ul>
+<li>List Item</li>
+<ul>
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ul>
+<li>List Item</li>
+</ul>
+<!-- END Nested Unordered List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ul&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ul&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Nested List Item&lt;/li&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ul&gt; <br>&lt;li&gt;List Item&lt;/li&gt; <br>&lt;/ul&gt;</p>
+<p><strong>NOTE:</strong>&nbsp;No extra code required&nbsp;for typical nested unordered list.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-6">
+<h3>Ordered List</h3>
+<!-- Ordered List -->
+<ol>
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ol>
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE: </strong>The ordered list starts with the <em><strong>&lt;ol&gt;</strong></em> tag and ends with the <em><strong>&lt;/ol&gt;</strong></em>. Each list item starts with the <em><strong>&lt;li&gt;</strong></em> tag and ends with <em><strong>&lt;/li&gt;</strong></em>.&nbsp;</p>
+</div>
+</div>
+<!-- END Ordered List --></div>
+<div class="col-sm-6">
+<h3>Nested Ordered List</h3>
+<!-- Nested Ordered List -->
+<ol>
+<li>List Item List</li>
+<ol>
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ol>
+<li>List Item</li>
+</ol>
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ol&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Nested List Item&lt;/li&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ol&gt; <br>&lt;li&gt;List Item&lt;/li&gt; <br>&lt;/ol&gt;</p>
+<p><strong>NOTE: </strong>No extra code required&nbsp;for typical nested ordered list.</p>
+</div>
+</div>
+<!-- END Nested Ordered List --></div>
+</div>
+<div class="col-sm-12">
+<h2>Non Default Styled List</h2>
+<p><strong>NOTE: </strong>To specify a start value for a list item in an ordered list, that is NOT a default styled list, add code <b><em>style="counter-reset: li #;"</em> </b>to the &lt;ol&gt; tag and change the number (<em><b>#</b></em>) to one lesser than the number you want to start at.</p>
+<div class="col-sm-6">
+<h3>Blue Box Number List</h3>
+<!-- Blue Box Number List -->
+<ol class="box-number blue">
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ol>
+<!-- END Blue Box Number List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="box-number blue"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="box-number blue"</strong></em> inside the <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<h3>Blue Box Number List with Nested Roman List</h3>
+<!-- Nested Blue Box Number List (Roman) -->
+<ol class="box-number blue">
+<li>List Item</li>
+<ol class="box-number blue r-numeral">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ol>
+<li>List Item</li>
+</ol>
+<!-- END Nested Blue Box Number List (Roman) -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="box-number blue"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ol class="box-number blue r-numeral"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ol&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="box-number blue"</strong></em> inside the first <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="box-number blue r-numeral"</strong></em> in the nested <em><strong>&lt;ol&gt;</strong></em> tag.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-6">
+<h3>Blue Box Number List with Nested Alpha List</h3>
+<!-- Nested Blue Box Number List (Alpha) -->
+<ol class="box-number blue">
+<li>List Item</li>
+<ol class="box-number blue no-icon">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ol>
+<li>List Item</li>
+</ol>
+<!-- END Nested Blue Box Number List (Alpha) -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="box-number blue"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ol class="box-number blue no-icon"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ol&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="box-number blue"</strong></em> inside the first <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="box-number blue no-icon"</strong></em> in the nested <em><strong>&lt;ol&gt;</strong></em> tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<h3>Blue Box Numbered List with Nested Unordered List</h3>
+<!-- Ordered Blue Box Numbered List with Nested Unordered List -->
+<ol class="box-number blue">
+<li>List Item</li>
+<ul class="no-box no-icon">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ul>
+<li>List Item</li>
+</ol>
+<!-- END Ordered Blue Box Numbered List with Nested Unordered List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="box-number blue"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ul class="no-box no-icon"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="box-number blue"</strong></em> inside the first <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="no-box no-icon"</strong></em> in the nested <em><strong>&lt;ul&gt;</strong></em> tag.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-6">
+<h3>Orange Box Number List</h3>
+<!-- Orange Box Number List -->
+<ol class="box-number orange">
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ol>
+<!-- END Orange Box Number List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="box-number orange"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="box-number orange"</strong></em> inside the <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<h3>Orange Box Number List with Nested Roman List</h3>
+<!-- Nested Orange Box Number List (Roman) -->
+<ol class="box-number orange">
+<li>List Item</li>
+<ol class="box-number orange r-numeral">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ol>
+<li>List Item</li>
+</ol>
+<!-- END Nested Orange Box Number List (Roman) -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="box-number orange"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ol class="box-number orange r-numeral"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ol&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="box-number orange"</strong></em> inside the first <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="box-number orange r-numeral"</strong></em> in the nested <em><strong>&lt;ol&gt;</strong></em>&nbsp;tag.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-6">
+<h3>Orange Box Number List with Nested Alpha List</h3>
+<!-- Nested Orange Box Number List (Alpha) -->
+<ol class="box-number orange">
+<li>List Item</li>
+<ol class="box-number orange no-icon">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ol>
+<li>List Item</li>
+</ol>
+<!-- END Nested Orange Box Number List (Alpha) -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="box-number orange"&gt;<br>&lt;li&gt;List Item &lt;/li&gt;<br>&lt;ol class="box-number orange no-icon"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ol&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="box-number orange"</strong></em> inside the first <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="box-number orange no-icon"</strong></em> in the nested <em><strong>&lt;ol&gt;</strong></em>&nbsp;tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<h3>Orange Box Number List with Nested Unordered List</h3>
+<!-- Ordered Orange Box Numbered List with Nested Unordered List -->
+<ol class="box-number orange">
+<li>List Item</li>
+<ul class="no-box no-icon">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ul>
+<li>List Item</li>
+</ol>
+<!-- END Ordered Orange Box Numbered List with Nested Unordered List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="box-number orange"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ul class="no-box no-icon"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="box-number orange"</strong></em> inside the first <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="no-box no-icon"</strong></em> in the nested <em><strong>&lt;ul&gt;</strong></em>&nbsp;tag.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-6">
+<h3>Circle Number List</h3>
+<!-- Circle Number List -->
+<ol class="circle-number">
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ol>
+<!-- END Circle Number List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="circle-number"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="circle-number"</strong></em> inside the <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<h3>Circle Number List with Nested&nbsp; Roman List</h3>
+<!-- Circle Number List (Roman) -->
+<ol class="circle-number">
+<li>List Item</li>
+<ol class="circle-number r-numeral">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ol>
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ol>
+<!-- END Circle Number List (Roman) -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="circle-number"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ol class="circle-number r-numeral"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ol&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="circle-number"</strong></em> inside the first <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="circle-number r-numeral"</strong></em> in the nested <strong><em>&lt;ol&gt;</em></strong>&nbsp;tag.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-6">
+<h3>Circle Number List with Nested Alpha List</h3>
+<!-- Circle Number List -->
+<ol class="circle-number">
+<li>List Item</li>
+<ol class="circle-number">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ol>
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ol>
+<!-- END Circle Number List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="circle-number"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ol class="circle-number"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ol&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="circle-number"</strong></em> inside the first <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="circle-number"</strong></em> in the nested <em><strong>&lt;ol&gt;</strong></em>&nbsp;tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<h3>Circle Number List with Nested Unordered List</h3>
+<!-- Circle Number List -->
+<ol class="circle-number">
+<li>List Item</li>
+<ul class="no-box no-icon">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ul>
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ol>
+<!-- END Circle Number List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="circle-number"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ul class="no-box no-icon"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="circle-number"</strong></em> inside the first <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="no-box no-icon"</strong></em> in the nested <em><strong>&lt;ul&gt;</strong></em> tag.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-6">
+<h3>Square Number List</h3>
+<!-- Square Number List -->
+<ol class="square-number">
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ol>
+<!-- END Square Number List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="square-number"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="square-number"</strong></em> inside the <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<h3>Square Number List with Nested Roman List</h3>
+<!-- Ordered Square Number List with Nested Roman List -->
+<ol class="square-number">
+<li>List Item</li>
+<ol class="square-number r-numeral">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ol>
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ol>
+<!-- END Ordered Square Number List with Nested Roman List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="square-number"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ol class="square-number r-numeral"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ol&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="square-number"</strong></em> inside the first <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="square-number r-numeral"</strong></em> in the nested <strong><em>&lt;ol&gt;</em></strong>&nbsp;tag.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-6">
+<h3>Square Number List with Nested Alpha List</h3>
+<!-- Square Number List -->
+<ol class="square-number">
+<li>List Item</li>
+<ol class="square-number">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ol>
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ol>
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="square-number"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ol class="square-number"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ol&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="square-number"</strong></em> inside the first <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="square-number"</strong></em> in the nested <strong><em>&lt;ol&gt;</em></strong>&nbsp;tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<h3>Square Number List with Nested Unordered List</h3>
+<!-- Square Number List -->
+<ol class="square-number">
+<li>List Item List Item List Item List Item</li>
+<ul class="no-box no-icon">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ul>
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ol>
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="square-number"&gt;<br>&lt;li&gt;List Item List Item List Item List Item&lt;/li&gt;<br>&lt;ul class="no-box no-icon"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="square-number"</strong></em> inside the first <strong><em>&lt;ol&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="no-box no-icon"</strong></em> in the nested <strong><em>&lt;ul&gt;</em></strong>&nbsp;tag.</p>
+</div>
+</div>
+</div>
+</div>
+&lt;/class="col-sm-12"&gt;</div>
+<div class="col-sm-12">
+<div class="col-sm-4">
+<h3>Check List</h3>
+<!-- BEGINNING Check List -->
+<ul class="icon-list-check">
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ul>
+<!-- END Check List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ul class="icon-list-check"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ul&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="icon-list-check"</strong></em> inside the <strong><em>&lt;ul&gt;</em></strong><em></em> tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<h3>Check List Nested Check List</h3>
+<!-- Nested Check List -->
+<ul class="icon-list-check">
+<li>List Item</li>
+<ul class="icon-list-check">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ul>
+<li>List Item</li>
+</ul>
+<!-- END Nested Check List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ul class="icon-list-check"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ul class="icon-list-check"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ul&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="icon-list-check"</strong></em> inside the <strong><em>&lt;ul&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="icon-list-check"</strong></em> in the nested <strong><em>&lt;ul&gt;</em></strong>&nbsp;tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<h3>Cross List</h3>
+<!-- BEGINNING Cross List -->
+<ul class="icon-list-cross">
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ul>
+<!-- END Cross List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ul class="icon-list-cross"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ul&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="icon-list-cross"</strong></em> inside the <strong><em>&lt;ul&gt;</em></strong><em></em> tag.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-4">
+<h3>Check-Circle List</h3>
+<!-- Check-Circle List -->
+<ul class="icon-list-check-circle">
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ul>
+<!-- END Check-Circle List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ul class="icon-list-check-circle"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ul&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="icon-list-check-circle"</strong></em> inside the <strong><em>&lt;ul&gt;</em></strong><em></em> tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<h3>Check-Circle List with Nested Check Mark</h3>
+<!-- Check-Circle List -->
+<ul class="icon-list-check-circle">
+<li>List Item</li>
+<ul class="icon-list-check-circle">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ul>
+<li>List Item</li>
+<li>List Item</li>
+</ul>
+<!-- END Check-Circle List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ul class="icon-list-check-circle"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ul class="icon-list-check-circle"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ul&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="icon-list-check-circle"</strong></em> inside the <strong><em>&lt;ul&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="icon-list-check-circle"</strong></em> in the nested <strong><em>&lt;ul&gt;</em></strong>&nbsp;tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<h3>Check-Circle List with Nested Unordered List</h3>
+<!-- Check-Circle List -->
+<ul class="icon-list-check-circle">
+<li>List Item</li>
+<ul class="icon-list-check-circle no-icon">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ul>
+<li>List Item</li>
+<li>List Item</li>
+</ul>
+<!-- END Check-Circle List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ul class="icon-list-check-circle"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ul class="icon-list-check-circle no-icon"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ul&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="icon-list-check-circle"</strong></em> inside the <strong><em>&lt;ul&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="icon-list-check-circle no-icon"</strong></em> in the nested <strong><em>&lt;ul&gt;</em></strong>&nbsp;tag.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-4">
+<h3>Check-Square List</h3>
+<!-- Check-Square List -->
+<ul class="icon-list-check-square">
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ul>
+<!-- END Check-Square List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ul class="icon-list-check-square"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ul&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="icon-list-check-square"</strong></em> inside the <strong><em>&lt;ul&gt;</em></strong><em></em> tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<h3>Check-Square List with Nested Check Mark</h3>
+<!-- Check-Square List -->
+<ul class="icon-list-check-square">
+<li>List Item</li>
+<ul class="icon-list-check-square">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ul>
+<li>List Item</li>
+<li>List Item</li>
+</ul>
+<!-- END Check-Square List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ul class="icon-list-check-square"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ul class="icon-list-check-square"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ul&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="icon-list-check-square"</strong></em> inside the <strong><em>&lt;ul&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="icon-list-check-square"</strong></em> in the nested <strong><em>&lt;ul&gt;</em></strong>&nbsp;tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<h3>Check-Square List with Nested Unordered List</h3>
+<!-- Check-Square List -->
+<ul class="icon-list-check-square">
+<li>List Item</li>
+<ul class="icon-list-check-square no-icon">
+<li>Nested List Item</li>
+<li>Nested List Item</li>
+</ul>
+<li>List Item</li>
+<li>List Item</li>
+</ul>
+<!-- END Check-Square List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ul class="icon-list-check-square"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;ul class="icon-list-check-square no-icon"&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;li&gt;Nested List Item&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ul&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="icon-list-check-square"</strong></em> inside the <strong><em>&lt;ul&gt;</em></strong><em></em> tag.</p>
+<p>Use <em><strong>class="icon-list-check-square no-icon"</strong></em> in the nested <strong><em>&lt;ul&gt;</em></strong>&nbsp;tag.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-6">
+<h3>Blue Blank Square List</h3>
+<!-- Blank Square Blue List -->
+<ul class="square-blank blue">
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ul>
+<!-- END Blank Square Blue List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ul class="square-blank blue"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ul&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="square-blank blue"</strong></em> inside the <strong><em>&lt;ul&gt;</em></strong><em></em> tag.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<h3>Orange Blank Square List</h3>
+<!-- Blank Square Orange List -->
+<ul class="square-blank orange">
+<li>List Item</li>
+<li>List Item</li>
+<li>List Item</li>
+</ul>
+<!-- END Blank Check Square Orange List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ul class="square-blank orange"&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;li&gt;List Item&lt;/li&gt;<br>&lt;/ul&gt;</p>
+<p><strong>NOTE:</strong> Use <em><strong>class="square-blank orange"</strong></em> inside the <strong><em>&lt;ul&gt;</em></strong><em></em> tag.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-6">
+<h3>Step List</h3>
+<!-- Step List -->
+<ol class="list-step">
+<li>
+<p>List Item</p>
+</li>
+<li>
+<p>List Item</p>
+</li>
+<li>
+<p>List Item</p>
+</li>
+</ol>
+<!-- END Step List -->
+<div class="jumbotron-bg">
+<div class="jumbotron">
+<p>&lt;ol class="list-step"&gt;<br>&lt;li&gt;<br>&lt;p&gt;List Item&lt;/p&gt;<br>&lt;/li&gt;<br>&lt;li&gt;<br>&lt;p&gt;List Item&lt;/p&gt;<br>&lt;/li&gt;<br>&lt;li&gt;<br>&lt;p&gt;List Item&lt;/p&gt;<br>&lt;/li&gt;<br>&lt;/ol&gt;</p>
+<p><strong>NOTE:</strong>&nbsp;Use&nbsp;<strong><em>class="list-step"</em></strong>&nbsp;inside the&nbsp;<strong><em>&lt;ol&gt;</em></strong>&nbsp;tag and use a paragraph tag&nbsp;<em><strong>&lt;p&gt;&lt;/p&gt;</strong></em>&nbsp;between the list tags&nbsp;<em><strong>&lt;li&gt;&lt;/li&gt;</strong></em>&nbsp;to create the step.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6"></div>
+</div>
+<div class="col-sm-12">
+<div class="col-sm-4"></div>
+<div class="col-sm-4"></div>
+<div class="col-sm-4"></div>
+</div>
+</main></div>
+<!-- jQuery local fallback (Bootstrap Dependency) -->
+<p>
+<script src="../../assets/thirdpartylib/jquery/jquery-1.11.3.min.js"></script>
+</p>
+<!-- Bootstrap CDN JS -->
+<p>
+<script src="../../assets/thirdpartylib/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+</p>
+<!-- SVG Fallback JS -->
+<p>
+<script src="../../assets/thirdpartylib/svg4everybody/svg4everybody.min.js"></script>
+</p>
+<!-- Course Scripts -->
+<p>
+<script src="js/main.min.js"></script>
+</p>
+</body></html>

@@ -1,0 +1,365 @@
+.color-box strong, .color-box-no-icon strong {
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: .02rem;
+}
+
+.color-box {
+    margin: 20px auto;
+    padding-left: 20px;
+    position: relative;
+    width:97%;
+}
+
+.color-box-no-icon {
+    margin: 20px auto;
+    padding-left: 0px;
+    position: relative;
+    width:97%;
+}
+
+.color-box .shadow {
+    margin: 0;
+}
+
+.shadow {
+    background: #F7F8F9;
+    padding: 3px;
+    margin: 15px 0 20px;
+}
+
+.note-icon::before {
+    /*font-size: 24px;*/
+    content: url(../img/icons/clipboard-pencil-white.svg);
+    top: 9px;
+    left: 10px;
+}
+
+/*.note-icon::after {
+    font-size: 17px;
+    content: "\e912";
+    top: 9px;
+    left: 19px;
+}*/
+
+/*.note-icon:hover::before, .note-icon:focus::before {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}*/
+
+.tip-icon::before {
+    /*font-size: 24px;*/
+    content: url(../img/icons/light-bulb-white.svg);
+    top: 8px;
+    left: 10px;
+}
+
+.further-reading-icon::before {
+    /*font-size: 24px;*/
+    content: url(../img/icons/book-closed-white.svg);
+    top: 9px;
+    left: 11px;
+}
+
+.did-know-icon::before {
+    /*font-size: 24px;*/
+    content: url(../img/icons/cloud-question-white.svg);
+    top: 9px;
+    left: 9px;
+}
+
+.try-it-icon::before {
+    /*font-size: 24px;*/
+    content: url(../img/icons/pencil-draw-white.svg);
+    top: 9px;
+    left: 9px;
+}
+
+.audio-icon::before {
+    /*font-size: 24px;*/
+    content: url(../img/icons/head-set-white.svg);
+    top: 9px;
+    left: 10.7px;
+}
+
+.video-icon::before {
+    /*font-size: 24px;*/
+    content: url(../img/icons/camera-reels-white.svg);
+    top: 8.5px;
+    left: 9px;
+}
+
+.websites-icon::before {
+    /*font-size: 24px;*/
+    content: url(../img/icons/www-global-white.svg);
+    top: 9px;
+    left: 9px;
+}
+
+.tools-icon::before {
+    /*font-size: 24px;*/
+    content: url(../img/icons/tools-white.svg);
+    top: 9px;
+    left: 9px;
+}
+
+.blue-box {
+    color: #144261; /* font colour */
+    background: #d5e9f6; /*background colour */
+}
+
+.blue-box-icon {
+    background: #47ade0; /* icon background colour */
+}
+
+.blue-box-icon i::before {
+    background: #1d7ead; /* icon background fold colour */
+}
+
+.green-box {
+    color: #2e5014;
+    background: #d5efc2;
+}
+
+.green-box-icon {
+    background: #92cd59;
+}
+
+.green-box-icon i::before {
+    background: #75b436;
+}
+
+.red-box {
+    color: #611414;
+    background: #f6d5d5;
+}
+
+.red-box-icon {
+    background: #e04747;
+}
+
+.red-box-icon i::before {
+    background: #ad1d1d;
+}
+
+.orange-box {
+    color: #613e14;
+    background: #fbdeb7;
+}
+
+.orange-box-icon {
+    background: #e0a147;
+}
+
+.orange-box-icon i::before {
+    background: #ad781d;
+}
+
+.purple-box {
+    color: #411461;
+    background: #e2b7fb;
+}
+
+.purple-box-icon {
+    background: #a847e0;
+}
+
+.purple-box-icon i::before {
+    background: #781dad;
+}
+
+.yellow-box {
+    color: #614e14;
+    background: #fbe9b7;
+}
+
+.yellow-box-icon {
+    background: #e0b747;
+}
+
+.yellow-box-icon i::before {
+    background: #ad891d;
+}
+
+.grey-box {
+    color: #454545;
+    background: #e1e1e1;
+}
+
+.grey-box-icon {
+    background: #767676;
+}
+
+.grey-box-icon i::before {
+    background: #585858;
+}
+
+.aqua-box {
+    color: #14504f;
+    background: #c2efea;
+}
+
+.aqua-box-icon {
+    background: #59cdc9;
+}
+
+.aqua-box-icon i::before {
+    background: #36b4b0;
+}
+
+.brown-box {
+    color: #443a2e;
+    background: #d0c0ab;
+}
+
+.brown-box-icon {
+    background: #7e6a52;
+}
+
+.brown-box-icon i::before {
+    background: #66543e;
+}
+
+.blue-box, .green-box, .red-box, .orange-box, .purple-box, .yellow-box, .grey-box, .aqua-box, .brown-box  {
+    padding: 15px 25px 2.5px 27.5px;
+}
+
+.info-tab {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    left: 0;
+}
+
+.info-tab::before, .info-tab::after {
+    display: inline-block;
+    color: #fff;
+    line-height: normal;
+    /*font-family: "icomoon";*/
+    position: absolute;
+}
+
+.info-tab i::before {
+    width: 20px;
+    height: 25px;
+    box-shadow: inset 12px 0 13px rgb(0 0 0 / 50%);
+}
+
+.info-tab i::after {
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+    bottom: -18px;
+}
+
+.info-tab i::before, .info-tab i::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: -19px;
+    transform: rotateX(60deg);
+}
+
+@media screen and (max-width: 768px){
+
+.color-box {
+    padding-left: 0;
+    width:98%;
+}
+
+/*.color-box strong {
+    margin-left: 33px;
+}*/
+
+.note-icon::before {
+    top: 0px;
+    left: 4px;
+    content: url(../img/icons/clipboard-pencil.svg);
+    /*color: #144261;*/
+}
+
+.tip-icon::before {
+    top: 0px;
+    left: 4px;
+    content: url(../img/icons/light-bulb.svg);
+    /*color: #2e5014;*/
+}
+
+.further-reading-icon::before {
+    top: 0px;
+    left: 4px;
+    content: url(../img/icons/book-closed.svg);
+    /*color: #2e5014;*/
+}
+
+.did-know-icon::before {
+    top: 0px;
+    left: 4px;
+    content: url(../img/icons/cloud-question.svg);
+    /*color: #2e5014;*/
+}
+
+.try-it-icon::before {
+    top: 0px;
+    left: 4px;
+    content: url(../img/icons/pencil-draw.svg);
+    /*color: #2e5014;*/
+}
+
+.audio-icon::before {
+    top: 0px;
+    left: 4px;
+    content: url(../img/icons/head-set.svg);
+    /*color: #2e5014;*/
+}
+
+.video-icon::before {
+    top: 0px;
+    left: 4px;
+    content: url(../img/icons/camera-reels.svg);
+    /*color: #2e5014;*/
+}
+
+.websites-icon::before {
+    top: 0px;
+    left: 4px;
+    content: url(../img/icons/www-global.svg);
+    /*color: #2e5014;*/
+}
+
+.tools-icon::before {
+    top: 0px;
+    left: 4px;
+    content: url(../img/icons/tools.svg);
+    /*color: #2e5014;*/
+}
+
+.blue-box, .green-box, .red-box, .orange-box, .purple-box, .yellow-box, .grey-box, .aqua-box, .brown-box {
+    padding: 15px 25px 2.5px 50px;
+}
+
+.info-tab i {
+    display: none;
+}
+
+.info-tab {
+    width: 30px;
+    height: 30px;
+    top: 19px;
+    left: 17.5px;
+    background: none;
+}
+
+.color-box .shadow {
+    overflow: visible;
+}
+
+.shadow, .example, .console-output, .content pre {
+    max-width: 100%;
+    overflow-x: auto;
+}
+}

@@ -1,0 +1,127 @@
+@import "//fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.blue-table {
+  width: 97%;
+  margin: 20px auto 10px auto;
+  text-align: left;
+  min-width: 240px;
+  border: 2px solid #99C5E5;
+}
+
+/*.blue-table tr {
+  border-top: 1px solid #005694;
+  border-bottom: 1px solid #005694;
+}*/
+
+/*.blue-table tr {
+  border-top: 1px solid #565A5C;
+  border-bottom: 1px solid #565A5C;
+}*/
+
+.blue-table tr {
+  border-top: 1px solid #99C5E5;
+  border-bottom: 1px solid #99C5E5;
+  vertical-align: top;
+}
+
+.blue-table th {
+  display: none;
+  border-right: 1px solid #99C5E5;
+  color: #FFFFFF;
+}
+
+.blue-table td {
+  display: block;
+  border-right: 1px solid #99C5E5;
+}
+
+/*.blue-table td:first-child {
+  padding-top: .5em;
+}
+
+.blue-table td:last-child {
+  padding-bottom: .5em;
+}*/
+
+.blue-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  /*width: 11em;*/
+  /*display: inline-block;*/
+  /*white-space: pre;*/
+}
+
+.polar-blue {
+    background-color: #EEF7FC!important;
+	color: #565A5C!important;
+}
+
+@media (min-width: 480px) {
+  .blue-table td:before {
+    display: none;
+  }
+}
+
+.blue-table th, .blue-table td {
+  text-align: left;
+}
+
+@media (min-width: 480px) {
+  .blue-table th, .blue-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  
+  .blue-table th:first-child, .blue-table td:first-child {
+    padding-left: 0;
+  }
+  
+  .blue-table th:last-child, .blue-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+.blue-table {
+  /*background-color: rgba(255,255,255,.6);
+  color: #fff;
+  border-radius: .4em;*/
+  overflow: hidden;
+}
+
+.blue-table th, .blue-table td {
+  margin: .5em 1em;      
+}
+
+@media (min-width: 480px) {
+  .blue-table th, .blue-table td {
+    padding: 15px !important;
+  }
+}
+
+.blue-table th, .blue-table td:before {
+  
+  /*background: #565A5C;*/
+  background: #005694;
+  /*background: #EEF7FC;*/
+  margin: 0 0 0px;
+  font-family: Montserrat,sans-serif;
+  font-weight: 700;
+  /*letter-spacing: 1px;*/
+  height: 60px;
+  vertical-align: middle;
+}
+
+@media (max-width: 480px) {
+	.blue-table{
+		background-color: #EEF7FC;
+	}
+	
+	.blue-table td{
+		color: #565A5C;
+		font-size: 12px;
+		border-right: 0px;
+	}	
+	
+	.blue-table th, .blue-table td:before {
+  		background: none;
+}
+}
