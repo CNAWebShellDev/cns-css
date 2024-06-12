@@ -1,0 +1,11 @@
+{
+  "name": "cna-css",
+  "version": "1.0.0",
+  "description": "Theme Files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
